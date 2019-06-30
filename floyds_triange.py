@@ -8,13 +8,15 @@ make_triangle_top = lambda w: list(map(make_point, range(w)))
 make_triangle_bottom = lambda w: list(map(make_point, range(w)[::-1]))
 make_triangle = lambda t: [make_triangle_top(t), make_triangle_bottom(t)]
 
-
-make_triangle(10)
-
-
-#  If you want to allow input.....
+"""
+If you want to allow input, uncomment the two lines below
+    and comment out the line below them.....
+"""
 #  print("Enter a number: ", end="")
 #  make_triangle(int(input("")))
+
+
+make_triangle(10)
 
 
 """ OUTPUT
