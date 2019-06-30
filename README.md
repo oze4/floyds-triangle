@@ -1,0 +1,2 @@
+# floyds-triangle
+Python excersize
