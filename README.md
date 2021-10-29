@@ -1,2 +1,2 @@
 # floyds-triangle
-Python excersize
+Python exercize
